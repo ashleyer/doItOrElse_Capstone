@@ -6,9 +6,9 @@
 Do it or Else! is a tool created to foster user follow-through on tasks. 
 Born from a novel and evidence-based idea of upping self-productivity by way of avoiding embarrassment, this app holds you to your personally-created To Do queues by firing off one of your previously-entered embarrassing actions unless the task is completed by its deadline. 
 
-To-Do Lists, activity reminders, and calendar notes that remain unfinished and undone are commonplace in most of our daily lives. Their mere presence around us can often invoke our feelings of guilt, avoidance, and general self-negativity, and supercede their original purpose of encouraging us toward taking an action necessary to complete, and cross the task off. 
+To Do Lists, activity reminders, and calendar notes that remain unfinished and undone are commonplace in most of our daily lives. Their mere presence around us can often invoke our feelings of guilt, avoidance, and general self-negativity, superceding their original purpose of encouraging us toward taking an action necessary to complete, and cross off, the task at hand. 
 
-The Do it or Else! self-Blackmail technique revokes the traditional To-Do List and replaces it with a more effective, and more entertaining, self-propelled motivational tool to help you just get that sh*t done!
+The Do it or Else! self-Blackmail technique revokes the traditional To Do List and replaces it with a more effective, and more entertaining, self-propelled motivational tool to help you just get that sh*t done!
 
 **Scientific basis: 
 "Negative reinforcement is a term described by B. F. Skinner in his theory of operant conditioning. In negative reinforcement, a response or behavior is strengthened by stopping, removing, or avoiding a negative outcome or aversive stimulus,"
@@ -103,10 +103,12 @@ kydfjhtd`
 ## Acknowledgements + Credits
 `-Nathan`
 
-`*List third-party assets/guides/creators with links to their primary web presence*`
+`-https://www.healthline.com/health/extrinsic-motivation#takeaway`
+
+*List third-party assets/guides/creators with links to their primary web presence*
 
 
 ## License
 
-[MIT](https://choosealicense.com/)
+`jhvjhgcjgxhgf`
 
