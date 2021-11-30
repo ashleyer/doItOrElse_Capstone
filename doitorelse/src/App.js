@@ -1,18 +1,20 @@
 
-import React, { Component } from 'react';
-import Header from './components/Header';
-import routes from './config/routes';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import TaskContainer from './components/TaskContainer';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="container">
-        <Header/>
-        { routes }
-      </div>
-    );
-  }
-}
+
+function App() {
+  return (
+    <div className="container">
+      <Routes>
+        <Route exact path='/' element={ <Home/> }></Route>
+        <Route path='/container' element={ <TaskContainer/> }></Route>
+      </Routes>
+    </div>
+  );
+};
 
 export default App;
 

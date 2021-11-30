@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <h1>Task</h1>
+                <h1>Task Header</h1>
                 <nav>
                     <Link to={'/'}>Home</Link>
                     <Link to={'/tasks'}>Tasks</Link>

@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class Home extends Component {
-    render() {
-        return (
-            <div>
-                Do It or Else!!
-            </div>
-        )
-    }
+const Home = () => {
+    return (
+        <h2>
+            HOME PAGE HERE
+        </h2>
+    );
+};
 
-}
+export default Home;
 
 // const Home = () => {
 //     return (
@@ -20,4 +19,4 @@ class Home extends Component {
 //     );
 // };
 
-export default Home;
+
