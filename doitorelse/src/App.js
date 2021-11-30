@@ -1,19 +1,18 @@
 
-import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import TaskContainer from './components/TaskContainer';
 import React, { Component } from 'react';
-//import Header from './components/Header';
-import MyRoutes from './config/routes';
+import Header from './components/Header';
+import routes from './config/routes';
 
-function App() {
-  return (
-    <div className="container">
-        <Route path='/home' element={ <Home/> }/>
-        <Route path='/taskcontainer' component={ TaskContainer }/>
-    </div>
-  );
-};
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <Header/>
+        { routes }
+      </div>
+    );
+  }
+}
 
 export default App;
 
