@@ -1,70 +1,135 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Do It or Else!** 
+*Light a fire under To Do Lists with motivational self-Blackmail*
 
-## Available Scripts
 
-In the project directory, you can run:
+Do it or Else! is a tool created to foster user follow-through on tasks. 
+Born from a novel and evidence-based idea of upping self-productivity by way of avoiding embarrassment, this app holds you to your personally-created To Do queues by firing off one of your previously-entered embarrassing actions unless the task is completed by its deadline. 
 
-### `yarn start`
+To Do Lists, activity reminders, and calendar notes that remain unfinished and undone are commonplace in most of our daily lives. Their mere presence around us can often invoke our feelings of guilt, avoidance, and general self-negativity, superceding their original purpose of encouraging us toward taking an action necessary to complete, and cross off, the task at hand. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Do it or Else! self-Blackmail technique revokes the traditional To Do List and replaces it with a more effective, and more entertaining, self-propelled motivational tool to help you just get that sh*t done!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Scientific basis: 
+"Negative reinforcement is a term described by B. F. Skinner in his theory of operant conditioning. In negative reinforcement, a response or behavior is strengthened by stopping, removing, or avoiding a negative outcome or aversive stimulus,"
+-Cameron J, et al. (1994). Reinforcement, reward, and intrinsic motivation: A meta-analysis. DOI:
+10.3102/00346543064003363**
 
-### `yarn test`
+## Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@ashleyer](https://github.com/ashleyer) 
+    
+    Email me anytime at 
+    ashleye.romano@gmail.com 
+    for Feedback, Support, or just to say Hi
 
-### `yarn build`
+## Stats
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`lwkejfg`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Badges
 
-### `yarn eject`
+`Add badges from somewhere like: [shields.io](https://shields.io/)`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project status
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`denote stage of development`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contents
 
-## Learn More
+`;awlekfnaweklkjgn   
+awleifhjw;legjb    
+qlekfj;wleigfhj
+kjyfkjyfgljkugjf`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech
 
-### Code Splitting
+Do It or Else! is a full-stack CRUD application utilizing a combination of four technologies — MongoDB(M), Express(E), React(R), NodeJS(N):
+       
+🌐 The MERN Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This stack's Client-Server architecture uses Express and Mongoose ODM within a React.js project structure to enable front-end functionality capable of making HTTP Requests/consuming Responses:
+        
+        >Client:
+            React! - JS library for building U/I,
+            MongoDB - App data platform,
+            Axios - Promise-based HTTP client for Browser/Node.js
+                                            `(insert links in all these)`
+        >Server:
+            Node.js - I/O for backend, 
+            Express.js - Unopinionated web framework for Node.js,
+            Mongoose - mongoose
+                                            `(insert links in all these)`
 
-### Analyzing the Bundle Size
+    *for more details, see package.json on both Client and Server sides*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get started: 
 
-### Advanced Configuration
+Install dependencies with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+yarn
 
-### Deployment
+Start the development environment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+yarn start
+First you'll need Node.js and the package manager that comes with it: npm.
 
-### `yarn build` fails to minify
+Once you've got that working, head to the command line where we'll set up our project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone the Tutorial
+git clone https://github.com/reactjs/react-router-tutorial
+cd react-router-tutorial
+cd lessons/01-setting-up
+npm install
+npm start
+Now open up http://localhost:8080
+
+Feel free to poke around the code to see how we're using webpack and npm scripts to run the app.
+
+You should see a "Hello React Router" message in the browser.
+
+
+`;kgljyfg
+
+ljyfljyf
+
+kydfjhtd`
+
+
+## Usage/Examples/Screenshots
+
+`examples of use with screenshots`
+
+
+## Planning
+
+Link to ERD Data Visualization document:
+`https://lucid.app/lucidchart/e5bdbc50-b1a8-4c83-9da8-ba8fd4ac39e3/edit?viewport_loc=-312%2C-154%2C3333%2C1641%2C0_0&invitationId=inv_06e498ef-c162-405c-9f33-cba1816b93d9`
+
+Link to Progress Tracking Kanban Board: 
+`https://lucid.app/lucidchart/8ee738cf-6a33-4b68-9ba8-39c778dac163/edit?viewport_loc=-340%2C139%2C1481%2C729%2C0_0&invitationId=inv_984d0bc6-08b7-485b-a74c-14529a4aff10`
+`links User stories, wireframes`
+
+## Roadmap
+
+`list stretch features and their statuses`
+
+
+## Acknowledgements + Credits
+`-Nathan`
+
+`-https://www.healthline.com/health/extrinsic-motivation#takeaway`
+
+*List third-party assets/guides/creators with links to their primary web presence*
+
+
+## License
+
+`jhvjhgcjgxhgf`
+

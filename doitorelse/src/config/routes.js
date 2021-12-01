@@ -14,7 +14,7 @@ import TaskContainer from '../components/TaskContainer';
 
 export default (
     <Routes>
-        <Route exact path='/' element={<Home/>}></Route>
-        <Route path='/tasks' element={TaskContainer} />
+        <Route exact path='/' element={<Home />}></Route>
+        <Route path='/container' element={<TaskContainer/>}></Route>
     </Routes>
-)
+);

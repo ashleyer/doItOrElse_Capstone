@@ -78,6 +78,22 @@ yarn
 Start the development environment:
 
 yarn start
+First you'll need Node.js and the package manager that comes with it: npm.
+
+Once you've got that working, head to the command line where we'll set up our project.
+
+Clone the Tutorial
+git clone https://github.com/reactjs/react-router-tutorial
+cd react-router-tutorial
+cd lessons/01-setting-up
+npm install
+npm start
+Now open up http://localhost:8080
+
+Feel free to poke around the code to see how we're using webpack and npm scripts to run the app.
+
+You should see a "Hello React Router" message in the browser.
+
 
 `;kgljyfg
 
@@ -93,7 +109,12 @@ kydfjhtd`
 
 ## Planning
 
-`links to ERD, User stories, wireframes`
+Link to ERD Data Visualization document:
+`https://lucid.app/lucidchart/e5bdbc50-b1a8-4c83-9da8-ba8fd4ac39e3/edit?viewport_loc=-312%2C-154%2C3333%2C1641%2C0_0&invitationId=inv_06e498ef-c162-405c-9f33-cba1816b93d9`
+
+Link to Progress Tracking Kanban Board: 
+`https://lucid.app/lucidchart/8ee738cf-6a33-4b68-9ba8-39c778dac163/edit?viewport_loc=-340%2C139%2C1481%2C729%2C0_0&invitationId=inv_984d0bc6-08b7-485b-a74c-14529a4aff10`
+`links User stories, wireframes`
 
 ## Roadmap
 

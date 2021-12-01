@@ -1,17 +1,16 @@
 
 import React from 'react';
+import Header from './components/Header';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import TaskContainer from './components/TaskContainer';
-
+import routes from './config/routes';
 
 function App() {
   return (
-    <div className="container">
-      <Routes>
-        <Route exact path='/' element={ <Home/> }></Route>
-        <Route path='/container' element={ <TaskContainer/> }></Route>
-      </Routes>
+    <div className="body">
+      <Header/>
+      { routes }
     </div>
   );
 };
