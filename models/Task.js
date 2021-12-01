@@ -26,12 +26,12 @@ const TaskSchema = new mongoose.Schema({
         default: Date.now,
         required: true
     },
-    user_id: {
-        type: fk,
-    },
-    consequence: {
-        type: fk,
-    },
+    // user_id: {
+    //     type: fk,
+    // },
+    // consequence: {
+    //     type: fk,
+    // },
     //stretches
     // recurring: {
     //     type: Boolean
