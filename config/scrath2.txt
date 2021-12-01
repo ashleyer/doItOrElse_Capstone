@@ -1,8 +1,0 @@
-mongodb username:
-doit
-
-password:
-orelse
-
-
-mongosh "mongodb+srv://cluster0.cq1ss.mongodb.net/myFirstDatabase" --username doit
