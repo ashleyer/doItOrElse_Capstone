@@ -5,10 +5,8 @@ const app = express();
 
 connectDB();
 
-app.get('/', (req, res) => {
-    res.send("time to do it...or else!");
-})
+app.get('/', (req, res) => res.send("time to Do It...or Else!"));
 
 const port = process.env.PORT || 8000;
 
-app.listen(port, () => console.log(`Finally connected to server on port: ${port}`))
+app.listen(port, () => console.log(`server is ready on port: ${port}`))

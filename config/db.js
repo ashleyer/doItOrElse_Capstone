@@ -14,7 +14,7 @@ const connectDB = async () => {
         console.log('monGOOOOO!');
     } catch (err) {
         console.error(err.message);
-        process.exit(100);
+        process.exit(1);
     }
 };
 

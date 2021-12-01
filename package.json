@@ -1,26 +1,25 @@
 {
   "name": "capstonedoit",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "app": "nodemon app.js"
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/ashleyer/doItOrElse_Capstone.git",
   "author": "ashleyromano <ashleye.romano@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.24.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "config": "^3.3.6",
     "express": "^4.17.1",
-    "mongo": "^0.1.0",
     "mongoose": "^6.0.14",
-    "mongosh": "^1.1.5",
     "validation": "^0.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
-  
 }
