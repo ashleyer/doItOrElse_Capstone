@@ -1,0 +1,13 @@
+mongodb username:
+doit
+
+password:
+orelse
+ "mongoURI": "mongodb+srv://doit:<orelse>@cluster0.cq1ss.mongodb.net/doitorelse?retryWrites=true&w=majority"
+
+
+
+wrong
+mongodb+srv://cluster0.cq1ss.mongodb.net/doitorelse
+
+mongosh "mongodb+srv://cluster0.cq1ss.mongodb.net/myFirstDatabase" --username doit

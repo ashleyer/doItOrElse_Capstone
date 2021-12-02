@@ -1,0 +1,34 @@
+
+
+//MYROUTES
+
+to start i need:
+- one route to all Task items
+- one root route (haha)
+
+'/'
+'/task'
+
+
++ render(<Router/>, document.getElementById('app'))
+
+
+
+routes notes:
+> react router like a component
+> a way to link to various urls to components (like browser changing pages)
+
+
+
+
+PROBLEMS:
+
+---Can't resolve './serviceWorker'
+
+
+i dont understand:
+
+~ re FIRST principles...
+components are independent and do not rely on each other, but they must work together? is that a contradiction? confused. like if component a and b 'work together' to generate some outcome/action/result, isnt that outcome dependent on both a and b, and arent a and b depoendent on each other to make that outcome? even more, doesnt any or every component rely another one 'do'? 
+im probably overthinking small things and i wont get stuck on wondering. keep going now
+~ the react-router is a component, and so is each individual route? so components can exists within one another, it doesnt have to be like a compon-ette or sub-component etc..?
