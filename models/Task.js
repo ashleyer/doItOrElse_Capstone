@@ -3,29 +3,29 @@ const mongoose = require('mongoose');
 const TaskSchema = new mongoose.Schema({
     task_title: {
         type: String,
-        required: true
+
     },
     task_detail: {
         type: String,
-        required: true
-    },
-    deadline: {
-        type: Date,
-        required: true
-    },
-    completed_no_consequence: {
-        type: Boolean,
-    },
-    
+
+    }
+    // deadline: {
+    //     type: Date,
+    //     // required: true
+    // },
+    // completed_no_consequence: {
+    //     type: Boolean,
+    // },
+
     //not visible to user and or does not require user input
-    active: {
-        type: Boolean,
-    },
-    date_created: {
-        type: String,
-        default: Date.now,
-        required: true
-    },
+    // active: {
+    //     type: Boolean,
+    // },
+    // date_created: {
+    //     type: String,
+    //     default: Date.now,
+    //     required: true
+    // },
     // user_id: {
     //     type: fk,
     // },
@@ -42,5 +42,6 @@ const TaskSchema = new mongoose.Schema({
 });
 
 
-
-module.exports = Task = mongoose.model('task', TaskSchema);
+const Task = mongoose.model('task', TaskSchema);
+//module.exports = Task = mongoose.model('task', TaskSchema);
+module.exports = Task;

@@ -3,16 +3,13 @@ const mongoose = require('mongoose');
 const ConsequenceSchema = new mongoose.Schema({
     consequence_label: {
         type: String,
-        required: true,
     },
     consequence_detail: {
         type: String,
-        required: true
     },
     consequence_recipient: {
         type: String,
-        required: true
-    },
+    }
     //?
     // deadline: {
     //     type: fk? same as this field in task,
@@ -45,4 +42,8 @@ const ConsequenceSchema = new mongoose.Schema({
 
 
 
-module.exports = Consequence = mongoose.model('consequence', ConsequenceSchema);
+// module.exports = Consequence = mongoose.model('consequence', ConsequenceSchema);
+
+const Consequence = mongoose.model('consequence', ConsequenceSchema);
+
+module.exports = Consequence;

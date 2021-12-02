@@ -3,19 +3,19 @@ const mongoose = require('mongoose');
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        //required: true
     },
     email: {
         type: String,
-        required: true
+        //required: true
     },
     username: {
         type: String,
-        required: true
+        //required: true
     },
-    password: {
-        type: String
-    },
+    // password: {
+    //     type: String
+    // },
     //not visible to user
     // consequence_list: {
     //     type: foreign key?,
@@ -34,5 +34,7 @@ const UserSchema = new mongoose.Schema({
 //     require: false
 // }
 
+const User = mongoose.model('user', UserSchema);
 
-module.exports = User = mongoose.model('user', UserSchema);
+module.exports = User;
+// module.exports = User = mongoose.model('user', UserSchema);
